@@ -6,10 +6,7 @@ const router = Router();
 
 router.get("/mockingpets", controller.getMockingPets);
 /* router.post("/mockingpets", petsController.postMockingPets);
-router.get("/pets", petsController.getAllPets);
 router.get("/mockingusers", usersController.getMockingUsers);
-router.post("/mockingusers", usersController.postMockingUsers);
-router.get("/users", usersController.getAllUsers);
-router.post("/generatedata", usersController.generateData); */
+router.post("/mockingusers", usersController.postMockingUsers);*/
 
 export default router;
